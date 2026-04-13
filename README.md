@@ -1,3 +1,5 @@
+#Corporacion Universitaria Minuto de Dios
+Vivian Paez 1009839 | Juan Huertas 1009837
 # Proyecto Web Modular con Flask
 
 Aplicacion web desarrollada con Flask que implementa un diseño modular utilizando plantillas HTML con bloques de extension e inclusiones.
