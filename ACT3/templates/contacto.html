@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block title %}Contacto - MiProyectoWeb{% endblock %}
+
+{% block content %}
+<section class="seccion">
+    <h2>Contactanos</h2>
+    <p>Estamos aqui para ayudarte. Completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
+    
+    <div class="contacto-container">
+        <form class="formulario-contacto" action="#" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Correo electronico:</label>
+                <input type="email" id="email" name="email" required placeholder="tu@email.com">
+            </div>
+            
+            <div class="form-group">
+                <label for="telefono">Telefono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Tu numero de telefono">
+            </div>
+            
+            <div class="form-group">
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required placeholder="Motivo de contacto">
+            </div>
+            
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escribe tu mensaje aqui..."></textarea>
+            </div>
+            
+            <button type="submit" class="btn-enviar">Enviar mensaje</button>
+        </form>
+        
+        <div class="info-contacto">
+            <h3>Informacion de contacto</h3>
+            <p><strong>Email:</strong> contacto@miproyectoweb.com</p>
+            <p><strong>Telefono:</strong> +57 321 814 7486</p>
+            <p><strong>Direccion:</strong> Av. Caracas Cr 30, Bogota, Colombia</p>
+            <p><strong>Horario de atencion:</strong> Lunes a Viernes de 9:00 a 18:00 hrs</p>
+        </div>
+    </div>
+</section>
+{% endblock %}
