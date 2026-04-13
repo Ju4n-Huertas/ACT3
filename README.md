@@ -12,7 +12,12 @@ Aplicacion web desarrollada con Flask que implementa un diseño modular utilizan
 
 ## Instalacion
 
-1. Clonar el repositorio:
+###Opcion A. Clonar el repositorio:
 ```bash
 git clone https://github.com/Ju4n-Huertas/ACT3.git
 cd ACT3
+```
+###Opcion B. Descarga directa
+  1. Descargar el proyecto como ZIP desde GitHub (boton "Code" -> "Download ZIP")
+  2. Descomprimir el archivo
+  3. Abrir la carpeta en VS Code
