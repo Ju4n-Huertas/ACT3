@@ -14,5 +14,5 @@ Aplicacion web desarrollada con Flask que implementa un diseño modular utilizan
 
 1. Clonar el repositorio:
 ```bash
-git clone https://
+git clone https://github.com/Ju4n-Huertas/ACT3.git
 cd ACT3
